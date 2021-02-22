@@ -20,7 +20,7 @@
 
 
 import { App } from "./app";
-import { execRuntime } from "./fromworkjs/fromwork";
+import { execRuntime } from "../fromworkjs/fromwork";
 
 
 // what html tag to look for

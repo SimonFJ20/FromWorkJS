@@ -18,7 +18,7 @@
 *       Last Edit:  XX-XX-20XX
 */
 
-import { Component, DOM, html } from "./fromworkjs/fromwork";
+import { Component, DOM, html } from "../fromworkjs/fromwork";
 import { Samplepage } from "./routes/samplepage";
 
 

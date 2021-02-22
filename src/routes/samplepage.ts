@@ -18,7 +18,7 @@
 *       Last Edit:  XX-XX-20XX
 */
 
-import { Component, DOM, get, html, setRuntime } from "../fromworkjs/fromwork";
+import { Component, DOM, get, html, setRuntime } from "../../fromworkjs/fromwork";
 
 
 class Props {
