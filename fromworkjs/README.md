@@ -26,3 +26,7 @@ This does NOT apply if you keep the modified code private, E.g. personal, organi
 
 **TL;DR** Modified code has to be public
 
+## How to update 
+
+* Go to repository root. Run `curl https://raw.githubusercontent.com/SimonFJ20/FromWorkJSLibrary/main/fromwork.ts -o fromworkjs/fromwork.ts` in a console
+* Manually from [FromWorkJSLibrary](https://github.com/SimonFJ20/FromWorkJSLibrary/)
