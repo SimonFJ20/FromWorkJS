@@ -1,22 +1,24 @@
 
 /*
-*       Artika Web App
+*       Your Your FromWorkJS App
 *
 *       Filename:   ajax.ts
-*       Pathname:   ./ajax.ts
+*       Pathname:   src/ajax.ts
 *       Language:   TypeScript
 *       Content:    Contains general http requests
 *
-*       License:    GPL-2.0
+*       License:    MIT (Or your License Here)
 *
 *       Authors:
-*       Simon From Jakobsen
-*           Email:      simonfromjakobsen@gmail.com
-*           GitHub:     SimonFJ20
+*       Your Name Here
+*           Email:      your@email.here
+*           GitHub:     yourgithub
 *
-*       Created:    22-02-2021
-*       Last Edit:  22-02-2021
+*       Created:    XX-XX-20XX
+*       Last Edit:  XX-XX-20XX
 */
 
 
+
+/* Your AJAX here */
 

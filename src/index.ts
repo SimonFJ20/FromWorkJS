@@ -1,27 +1,32 @@
 
 /*
-*       Artika Web App
+*       Your FromWorkJS App
 *
 *       Filename:   index.ts
-*       Pathname:   ./index.ts
+*       Pathname:   src/index.ts
 *       Language:   TypeScript
 *       Content:    Entry point for app
 *
-*       License:    GPL-2.0
+*       License:    MIT (Or your License Here)
 *
 *       Authors:
-*       Simon From Jakobsen
-*           Email:      simonfromjakobsen@gmail.com
-*           GitHub:     SimonFJ20
+*       Your Name Here
+*           Email:      your@email.here
+*           GitHub:     yourgithub
 *
-*       Created:    22-02-2021
-*       Last Edit:  22-02-2021
+*       Created:    XX-XX-20XX
+*       Last Edit:  XX-XX-20XX
 */
 
-import { App } from "./app";
-import { execRuntime } from "./fromwork";
 
-const htmlTagName = 'artika-app';
+import { App } from "./app";
+import { execRuntime } from "./fromworkjs/fromwork";
+
+
+// what html tag to look for
+// default 'fromworkjs-app' and <fromworkjs-app></fromworkjs-app>
+const htmlTagName = 'fromworkjs-app';
+
 const htmlAppTag = document.getElementsByTagName(htmlTagName)[0];
 
 if(htmlAppTag != null) {

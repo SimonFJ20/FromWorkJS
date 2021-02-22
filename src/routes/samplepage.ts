@@ -1,24 +1,24 @@
 
 /*
-*       Artika Web App
+*       Your FromWorkJS App
 *
 *       Filename:   samplepage.ts
-*       Pathname:   ./routes/samplepage.ts
+*       Pathname:   src/routes/samplepage.ts
 *       Language:   TypeScript
-*       Content:    Example page for route
+*       Content:    Example page component
 *
-*       License:    GPL-2.0
+*       License:    MIT (Or your License Here)
 *
 *       Authors:
-*       Simon From Jakobsen
-*           Email:      simonfromjakobsen@gmail.com
-*           GitHub:     SimonFJ20
+*       Your Name Here
+*           Email:      your@email.here
+*           GitHub:     yourgithub
 *
-*       Created:    22-02-2021
-*       Last Edit:  22-02-2021
+*       Created:    XX-XX-20XX
+*       Last Edit:  XX-XX-20XX
 */
 
-import { Component, DOM, get, html, setRuntime } from "../fromwork";
+import { Component, DOM, get, html, setRuntime } from "../fromworkjs/fromwork";
 
 
 class Props {
@@ -36,13 +36,15 @@ export const Samplepage = (props: Props): Component => {
         DOM.id('title').innerText += props.titleText;
         DOM.id('alertButton').addEventListener('click', () => alert('Hello there'));
 
+
         get('http://localhost:4000/', (res, err) => {
             if(err === false) {
                 console.log('error', res);
                 return;
             }
             console.log(res);
-        })
+        });
+
 
     });
 

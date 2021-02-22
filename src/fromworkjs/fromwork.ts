@@ -1,13 +1,11 @@
 
 /*
-*       Artika Web App
+*       FromWorkJS Library
 *
 *       Filename:   fromwork.ts
-*       Pathname:   ./fromwork.ts
+*       Pathname:   src/fromwork.ts
 *       Language:   TypeScript
-*       Content:    Fromwork main library file
-*
-*       License:    GPL-2.0
+*       Content:    FromWorkJS main library file
 *
 *       Authors:
 *       Simon From Jakobsen
@@ -16,7 +14,32 @@
 *
 *       Created:    22-02-2021
 *       Last Edit:  22-02-2021
+*
+*       You are welcome to edit this exact file, just be ware of the license!
+*       Know and understand the implications before publishing your edited version!
+*
+*       License:    GPL-2.0
+*
+*    This is the Main file for the FromWorkJS Library
+*    Copyright (C) 2021  Simon From Jakobsen
+*
+*    This program is free software; you can redistribute it and/or modify
+*    it under the terms of the GNU General Public License as published by
+*    the Free Software Foundation; either version 2 of the License, or
+*    (at your option) any later version.
+*
+*    This program is distributed in the hope that it will be useful,
+*    but WITHOUT ANY WARRANTY; without even the implied warranty of
+*    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*    GNU General Public License for more details.
+*
+*    You should have received a copy of the GNU General Public License along
+*    with this program; if not, write to the Free Software Foundation, Inc.,
+*    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+*
+*
 */
+
 
 
 
