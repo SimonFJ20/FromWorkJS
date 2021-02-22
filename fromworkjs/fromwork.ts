@@ -53,6 +53,7 @@ export class DOM {
     public static getTitle = (): string => document.title;
 
 
+
     /**
      * Change the website title
      * @param {string} title - New title string

@@ -28,5 +28,7 @@ This does NOT apply if you keep the modified code private, E.g. personal, organi
 
 ## How to update 
 
-* Go to repository root. Run `curl https://raw.githubusercontent.com/SimonFJ20/FromWorkJSLibrary/main/fromwork.ts -o fromworkjs/fromwork.ts` in a console
+* Clone [FromWorkJSLibrary](https://github.com/SimonFJ20/FromWorkJSLibrary/) `git clone https://github.com/SimonFJ20/FromWorkJSLibrary fromworkjs`
+* To update a specific file. Run `curl -o fromworkjs/fromwork.ts https://raw.githubusercontent.com/SimonFJ20/FromWorkJSLibrary/main/fromwork.ts` in a console
 * Manually from [FromWorkJSLibrary](https://github.com/SimonFJ20/FromWorkJSLibrary/)
+
