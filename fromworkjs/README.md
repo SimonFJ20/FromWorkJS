@@ -27,8 +27,6 @@ This does NOT apply if you keep the modified code private, E.g. personal, organi
 **TL;DR** Modified code has to be public
 
 ## How to update 
-
-* Clone [FromWorkJSLibrary](https://github.com/SimonFJ20/FromWorkJSLibrary/) `git clone https://github.com/SimonFJ20/FromWorkJSLibrary fromworkjs`
-* To update a specific file. Run `curl -o fromworkjs/fromwork.ts https://raw.githubusercontent.com/SimonFJ20/FromWorkJSLibrary/main/fromwork.ts` in a console
+* Use GIT CLI `git clone https://github.com/SimonFJ20/FromWorkJSLibrary fromworkjs`
 * Manually from [FromWorkJSLibrary](https://github.com/SimonFJ20/FromWorkJSLibrary/)
-
+* To update a file manually, run `curl -o fromworkjs/fromwork.ts https://raw.githubusercontent.com/SimonFJ20/FromWorkJSLibrary/main/fromwork.ts` in a console
