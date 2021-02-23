@@ -14,3 +14,4 @@
 
 To update FromWorkJS run `git clone https://github.com/SimonFJ20/FromWorkJSLibrary fromworkjs`
 
+[Documentation](https://simonfj20.github.io/FromWorkJS/)
