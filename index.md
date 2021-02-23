@@ -141,28 +141,95 @@ DOM.setTitle = 'New Title';
 
 
 
-
-
 ### DOM.getTitle()
 ```typescript
 import { DOM } from '<pathTo>/frameworkjs/framework.ts'
 ```
 ```typescript
-class DOM { getTitle = (): string => string }
+DOM.getTitle = () => string
 ```
-General utility for managing the HTML DOM (Document Object Model).
-Includes these functions
-* getTitle(): string
-* setTitle(): void
-* setCssImport(): void
-* id(): Element
-* q(): Element
+Get the document title displayd by the browser
 
 #### Code Examples
 ```typescript
 const title: string = DOM.getTitle();
 alert('The title is ' + string);
 ```
+
+
+
+### DOM.setTitle()
+```typescript
+import { DOM } from '<pathTo>/frameworkjs/framework.ts'
+```
+```typescript
+DOM.setTitle = (title: string) => void
+```
+Set the document title displayd by the browser 
+
+#### Code Examples
+```typescript
+DOM.setTitle('New Title');
+```
+
+
+
+
+### DOM.setTitle()
+```typescript
+import { DOM } from '<pathTo>/frameworkjs/framework.ts'
+```
+```typescript
+DOM.setTitle = (title: string) => void
+```
+Set the document title displayd by the browser 
+
+#### Arguments
+* `title` a string containing the new title
+
+#### Code Examples
+```typescript
+DOM.setTitle('New Title');
+```
+
+
+### DOM.setCssImport()
+```typescript
+import { DOM } from '<pathTo>/frameworkjs/framework.ts'
+```
+```typescript
+DOM.setCssImport = (url: string) => void
+```
+Set the document title displayd by the browser 
+
+#### Arguments
+* `url` a string containing location of a css file relative to `dist/index.html`
+
+#### Code Examples
+```typescript
+DOM.setCssImport('myStyle.css');
+```
+
+
+### DOM.id()
+```typescript
+import { DOM } from '<pathTo>/frameworkjs/framework.ts'
+```
+```typescript
+DOM.id = (id: string) => HTMLElement
+```
+Returns a pointer to the first DOM element matching the id
+
+#### Arguments
+* `id` a string containing the id of the element
+
+#### Code Examples
+```typescript
+DOM.setTitle('New Title');
+```
+
+
+
 
 
 
