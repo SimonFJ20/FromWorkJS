@@ -1,6 +1,6 @@
 # FromWorkJS Documentation
 
-- [FromWorkJS Documentation](#fromworkjs-documentation)
+## Table of content
   * [Getting Started](#getting-started)
     + [Development](#development)
   * [Deployment](#deployment)
@@ -25,3 +25,10 @@ To update FromWorkJS run `git clone https://github.com/SimonFJ20/FromWorkJSLibra
 
 ## Reference
 
+
+
+
+
+
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
