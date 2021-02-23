@@ -127,6 +127,7 @@ A simple to route all routes is with this NodeJS/ExpressJS script:
 2. Navigate to the folder in a Console and run `npm init -y`
 3. Install ExpressJS by running `npm install express`
 4. Make a new file called `server.js` and type the following
+
 ```javascript
 const express = require('express');
 const path = require('path');
@@ -143,6 +144,7 @@ app.get(    '/route2/page1'     , (req, res) => {res.sendFile(path.join(__dirnam
 app.use(express.static(path.join(__dirname, '../dist/')));
 app.listen(5000);
 ```
+
 5. Save and close the file
 6. To run it use either one
     * Type `node server.js` in a Console
