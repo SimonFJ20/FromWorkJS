@@ -117,8 +117,59 @@ export const App = (): Component => {
 
 
 
+### DOM
+```typescript
+import { DOM } from '<pathTo>/frameworkjs/framework.ts'
+```
+```typescript
+class DOM
+```
+General utility for managing the HTML DOM (Document Object Model).
+Includes these functions
+* getTitle(): string
+* setTitle(): void
+* setCssImport(): void
+* id(): Element
+* q(): Element
 
-## Code examples
+#### Code Examples
+```typescript
+DOM.id('myButton')?.innerText = 'Press me';
+DOM.setCssImport('globalStyles.css');
+DOM.setTitle = 'New Title';
+```
+
+
+
+
+
+### DOM.getTitle()
+```typescript
+import { DOM } from '<pathTo>/frameworkjs/framework.ts'
+```
+```typescript
+class DOM { getTitle = (): string => string }
+```
+General utility for managing the HTML DOM (Document Object Model).
+Includes these functions
+* getTitle(): string
+* setTitle(): void
+* setCssImport(): void
+* id(): Element
+* q(): Element
+
+#### Code Examples
+```typescript
+const title: string = DOM.getTitle();
+alert('The title is ' + string);
+```
+
+
+
+
+
+
+## Code snippets
 
 ### Example NodeJS ExpressJS router
 To use router, it is required that the server is setup to route all relevant request to dist/index.html.
