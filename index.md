@@ -255,16 +255,24 @@ const app = express();
 /* All relevant routes used */
 
 //app.get(      '/yourRoute'
-, (req, res) => {res.sendFile(path.join(__dirname, '../dist/index.html'))});
+//, (req, res) => {
+//    res.sendFile(path.join(__dirname, '../dist/index.html'))
+//});
 
 app.get(        '/'
-, (req, res) => {res.sendFile(path.join(__dirname, '../dist/index.html'))});
+, (req, res) => {
+    res.sendFile(path.join(__dirname, '../dist/index.html'))
+});
 
 app.get(        '/route1'
-, (req, res) => {res.sendFile(path.join(__dirname, '../dist/index.html'))});
+, (req, res) => {
+    res.sendFile(path.join(__dirname, '../dist/index.html'))
+});
 
 app.get(        '/route2/page1'
-, (req, res) => {res.sendFile(path.join(__dirname, '../dist/index.html'))});
+, (req, res) => {
+    res.sendFile(path.join(__dirname, '../dist/index.html'))
+});
 
 
 
