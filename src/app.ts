@@ -19,7 +19,7 @@
 */
 
 import { Component, DOM, html } from "../fromworkjs/fromwork";
-import { Samplepage } from "./routes/samplepage";
+import { Samplepage } from "./mainpage";
 
 
 
@@ -27,19 +27,7 @@ export const App = (): Component => {
 
     DOM.setCssImport('global.css');
 
-    // if router is omitted
-    //return html(/*html*/`${Samplepage({titleText: `fromwork is terriblen't`})}`);
-
-    // router, can be omitted
-    switch(window.location.pathname) {
-
-        case '/':
-            return html(/*html*/`${Samplepage({titleText: `fromwork is terriblen't`})}`);
-
-        default:
-            return html(/*html*/`<h1>${window.location.pathname} not found! 404</h1>`);
-
-    }
+    return html(/*html*/`${Samplepage({titleText: `fromwork is terriblen't`})}`);
 
 }
 

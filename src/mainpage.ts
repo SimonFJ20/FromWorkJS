@@ -18,7 +18,7 @@
 *       Last Edit:  XX-XX-20XX
 */
 
-import { Component, DOM, get, html, setRuntime } from "../../fromworkjs/fromwork";
+import { Component, DOM, get, html, setRuntime } from "../fromworkjs/fromwork";
 
 
 class Props {
@@ -35,15 +35,6 @@ export const Samplepage = (props: Props): Component => {
 
         DOM.id('title').innerText += props.titleText;
         DOM.id('alertButton').addEventListener('click', () => alert('Hello there'));
-
-
-        get('http://localhost:4000/', (res, err) => {
-            if(err === false) {
-                console.log('error', res);
-                return;
-            }
-            console.log(res);
-        });
 
 
     });
