@@ -27,14 +27,22 @@ class Props {
 
 }
 
-
+let helloMsg: boolean = false;
 
 export const Samplepage = (props: Props): Component => {
 
     setRuntime(() => {
 
         DOM.id('title').innerText += props.titleText;
-        DOM.id('alertButton').addEventListener('click', () => alert('Hello there'));
+        DOM.id('alertButton').addEventListener('click', () => {
+            if(helloMsg) {
+                DOM.id('helloMessage').innerText = '';
+                helloMsg = false;
+            } else {
+                DOM.id('helloMessage').innerText = 'Hello There';
+                helloMsg = true;
+            }
+        });
 
 
     });
@@ -42,8 +50,13 @@ export const Samplepage = (props: Props): Component => {
     // 
     return html(/*html*/`
 
-        <button id="alertButton">Press Me</button>
         <h1 id="title">Example page with text:&nbsp</h1>
+
+        
+
+        <button id="alertButton">Press Me</button>
+
+        <h1 id="helloMessage"></h1>
 
     `)
 
