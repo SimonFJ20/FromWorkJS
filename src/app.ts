@@ -27,7 +27,9 @@ export const App = (): Component => {
 
     DOM.setCssImport('global.css');
 
-    return html(/*html*/`${Samplepage({titleText: `fromwork is terriblen't`})}`);
+    return html(/*html*/`
+        ${Samplepage({titleText: `fromwork is terriblen't`})}
+    `);
 
 }
 
